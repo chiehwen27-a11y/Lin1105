@@ -1,10 +1,10 @@
-#專案名稱(Lin1104)及網址
-https://github.com/chiehwen27-a11y/Lin1104
+#專案名稱(Lin1105)及網址
+https://github.com/chiehwen27-a11y/Lin1105.git
 
 #專案部署指南
 本專案的遠端 GitHub 倉庫已建立，請依據以下資訊協助將本地代碼推送至遠端：
-- HTTPS 網址: https://github.com/chiehwen27-a11y/Lin1104.git
-- SSH 網址: git@github.com:chiehwen27-a11y/Lin1104.git
+- HTTPS 網址: https://github.com/chiehwen27-a11y/Lin1105.git
+- SSH 網址: git@github.com:chiehwen27-a11y/Lin1105.git
 
 ## 首次推送任務
 當我要求你「初始化並推送專案」時，請依序協助我：
