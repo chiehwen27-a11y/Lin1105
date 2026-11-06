@@ -1,16 +1,36 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="zh-Hant">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080907">
+  <meta name="description" content="星巴克高蛋白冷萃，20g 蛋白質，來去逛逛。">
+  <title>高蛋白冷萃｜星巴克</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root { color-scheme: dark; }
+    html, body { min-height: 100%; margin: 0; background: #080907; }
+    .hero { position: relative; width: 100%; overflow: hidden; }
+    .hero-art { display: block; width: 100%; height: auto; }
+    /* Keep the call to action usable; its artwork is part of the supplied design. */
+    .hero-cta { position: absolute; left: 6.65%; top: 69.3%; width: 9.2%; height: 6.5%; border-radius: 999px; }
+    .hero-cta:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+    @media (max-width: 575.98px) {
+      .hero-cta { left: 6.6%; top: 69.2%; width: 19%; height: 6.8%; }
+    }
+  </style>
 </head>
-  <body>
-    <h1>Hello, world!</h1>
-  
-    <script src="js/bootstrap.min.js"></script>
-  </body
+<body>
+  <main class="container-fluid p-0">
+    <section class="hero" aria-label="高蛋白冷萃新品主視覺">
+      <img class="hero-art" src="img/範例.jpg" alt="PROTEIN COLD FOAM 高蛋白霜，20g 蛋白質。來去逛逛。*20g 蛋白質係指大杯（含）以上那堤含量。">
+      <a class="hero-cta" href="#product" aria-label="了解高蛋白冷萃"></a>
+    </section>
+    <section id="product" class="visually-hidden" aria-label="產品資訊">
+      <h1>高蛋白冷萃</h1>
+      <p>20g 蛋白質。*20g 蛋白質係指大杯（含）以上那堤含量。</p>
+    </section>
+  </main>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
